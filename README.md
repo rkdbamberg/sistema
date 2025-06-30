@@ -12,15 +12,16 @@ Projeto simples,  autenticação com usuário e CRUD na tabela produto. Breve ex
     Composer
     Docker e Docker Compose
 
-## Instalação
+## Instalação *Testada em Linux (Ubuntu e Mint) 
 
 Baixar o sistema
-git clone https://github.com/rkdbamberg/sistema.git
 
+Por GIT:
+git clone https://github.com/rkdbamberg/sistema.git
 
 Vamos começar pelo Frontend
 
-Abrir terminal
+Abrir terminal (Vs Code)
 
 cd sistema
 cd frontend
@@ -29,13 +30,13 @@ npm run serve
 
 Pronto 
 
-Abra outro terminal 
+Abra outro terminal (Vs Code)
 
 cd backend
 composer install
-cp .env.example .env
+cp .env.example .env /* Criando o ".env" */
 
-Edite ".env" e adicione de APP_URL:
+Edite ".env" e adicione abaixo de APP_URL:
 
 APP_PORT=8000
 

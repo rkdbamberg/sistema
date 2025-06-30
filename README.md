@@ -33,7 +33,9 @@ Pronto
 Abra outro terminal (Vs Code)
 
 cd backend
+
 composer install
+
 cp .env.example .env /* Criando o ".env" */
 
 Edite ".env" e adicione abaixo de APP_URL:
@@ -56,7 +58,9 @@ Abra terminal na pasta backend
 Execute os comandos:
 
 php artisan key:generate
+
 alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+
 sail up -d
 
 Abrir o Browser
